@@ -1,0 +1,49 @@
+*{
+	background-color: white !important;
+}
+
+p{
+	font-size: 16px;
+	line-height: 1.7;
+	font-family: Times New Roman;
+}
+
+img{
+	height: 200px;
+	width: auto;
+}
+
+div{
+	margin: 0;
+	padding: 30px 0 30px 0;
+}
+
+.para-links{
+	color: #e2790f;
+	text-decoration: none;
+}
+
+.para-links:hover{
+	color: #e2790f;
+	text-decoration: underline;
+}
+
+#image1{
+	float: left;
+	padding-right: 10px;
+}
+
+#image2{
+	float: right;
+	padding-left: 10px;
+}
+
+#copyright{
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+span{
+	font-size: 20px;
+}

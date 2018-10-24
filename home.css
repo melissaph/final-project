@@ -1,0 +1,29 @@
+*{
+	background-color: white !important;
+}
+
+#slideshow{
+	height: 570px;
+}
+
+#copyright{
+	text-align: center;
+}
+
+@media all and (max-width: 576px){
+	.hamburger{
+		display: none;
+	}
+
+	.mobileNav{
+		display: block;
+
+	}
+
+	#header{
+		font-size: 48px;
+	}
+
+
+
+}
