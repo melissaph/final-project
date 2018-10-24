@@ -5,9 +5,13 @@ $(".mobileNav").click(function(){
 
 	if(flag == true){
 	$(".mobileNav").html("-")
+	$(".images").css("top", "45%")
+	$("#sidenav").css("top", "45%")
 		flag = false
 	}else{
 		$(".mobileNav").html("+")
 		flag = true
+		$(".images").css("top", "25%")
+		$("#sidenav").css("top", "25%")
 	}
 })

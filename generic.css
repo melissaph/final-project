@@ -13,7 +13,7 @@ body{
 	height: 100px;
 }
 
-nav li{
+.hamburger{
 /*	border-top: black solid 1px;
 	border-bottom: black solid 1px;*/
 	text-align: center;
@@ -49,14 +49,14 @@ nav a:hover{
 @media all and (max-width: 576px){
 	.hamburger{
 		display: none;
+		font-size: 16px;
 	}
 
 	.mobileNav{
 		display: block;
-
 	}
 
 	#header{
 		font-size: 48px;
-	}	
+	}
 }
