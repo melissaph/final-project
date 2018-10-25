@@ -10,10 +10,10 @@
 }
 
 #portraits, #religion, #abstracts{
-	display: hidden;
+	display: none;
 }
 
-#sidenav, .portraits{
+#sidenav, #landscapes{
 	display: inline-block;
 }
 
@@ -28,13 +28,17 @@
 }
 
 img{
-	height: 200px;
+	height: 180px;
 	width: auto;
+	margin: 2%;
 }
 
-.row{
-	left: 30% !important;
+.images{
+	left: 12%;
+	top: 20%;
+	position: absolute;
 }
+
 
 @media all and (max-width: 576px){
 	#sidenav{
