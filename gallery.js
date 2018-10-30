@@ -20,12 +20,8 @@ $("#cat4").on("click", function(){
 
 
 this.onclick = function(e){
-	$("#box").css("display", "block")
-	$("#pic2").css("width", "700px")
-	var address = e.target.getAttribute("src")
-	$("#pic2").attr("src", address)
-	$("#box").css("position", "fixed")
-	$("#box").css("top", "100px")
-	$("#box").css("left", "10%")
-	$("#box").css("border", "2px solid black")
-}
+	if(e.target.getAttribute("src")){
+		$("#box").fadeToggle()
+		var address = e.target.getAttribute("src")
+		$("#pic2").attr("src", address)
+}}
