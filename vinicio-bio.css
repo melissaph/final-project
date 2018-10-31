@@ -8,11 +8,6 @@ p{
 	font-family: Times New Roman;
 }
 
-img{
-	height: 200px;
-	width: auto;
-}
-
 div{
 	margin: 0;
 	padding: 30px 0 30px 0;
@@ -31,11 +26,8 @@ div{
 #image1{
 	float: left;
 	padding-right: 10px;
-}
-
-#image2{
-	float: right;
-	padding-left: 10px;
+	height: 200px;
+	width: auto;
 }
 
 #copyright{

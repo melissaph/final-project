@@ -2,12 +2,24 @@
 	background-color: white !important;
 }
 
+#copyright{
+	text-align: center;
+}
+
 #slideshow{
 	height: 570px;
 }
 
-#copyright{
-	text-align: center;
+#slideshow div{
+	height: 500px;
+	width: auto;
+	position: absolute;
+	left: 25%;
+	margin-top: 10px;
+}
+
+div img{
+	height: 500px;
 }
 
 @media all and (max-width: 576px){
@@ -24,6 +36,20 @@
 		font-size: 48px;
 	}
 
+	#slideshow div{
+		height: 20%;
+		width: auto;
+		position: absolute;
+		left: 0;
+	}
 
+	#slideshow{
+		height: 350px;
+	}
+
+	div img{
+		height: 300px;
+		padding: 0 1% 0 1%;
+	}
 
 }
