@@ -13,6 +13,9 @@ div{
 	padding: 30px 0 30px 0;
 }
 
+img{
+	height: 100px;
+}
 .para-links{
 	color: #e2790f;
 	text-decoration: none;
@@ -23,17 +26,19 @@ div{
 	text-decoration: underline;
 }
 
-#image1{
+/*#image1{
 	float: left;
-	padding-right: 10px;
-	height: 200px;
+	padding-right: 50px;
+	height: 600px;
 	width: auto;
-}
+
+}*/
 
 #copyright{
 	text-align: center;
 	margin-top: 0;
 	padding-top: 0;
+	font-family: Neuton;
 }
 
 span{

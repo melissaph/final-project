@@ -4,23 +4,47 @@
 
 #copyright{
 	text-align: center;
+	font-family: Neuton;
+	margin-bottom: 10px;
 }
 
 #slideshow{
-	height: 570px;
+	height: 520px;
 }
 
 #slideshow div{
 	height: 500px;
 	width: auto;
 	position: absolute;
-	left: 25%;
+	left: 26%;
 	margin-top: 10px;
 }
 
 div img{
 	height: 500px;
 }
+
+/* Fading animation */
+/*.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: .6} 
+  20% {opacity: 1}
+  90% {opacity: 1}
+  100% {opacity: .6;}
+}
+
+@keyframes fade {
+   0% {opacity: .6} 
+  20% {opacity: 1}
+  90% {opacity: 1}
+  100% {opacity: .6;}
+}*/
 
 @media all and (max-width: 576px){
 	.hamburger{

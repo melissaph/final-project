@@ -1,13 +1,38 @@
 .book-title{
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-right: 300px;
+	vertical-align: top;
 }
 
 img{
 	height: 300px;
 	width: auto;
+	margin: 5px 10px 5px 0px;
 }
 
-.book-title{
+img, .bookinfo{
+	display: inline-block;
+}
+
+.books{
+	border-top: 6px solid black;
+	padding-left: 25px;
+}
+
+li{
+	list-style: circle;
+}
+
+.booksection{
+	margin-top: 20px;
+}
+
+.sum{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: underline;
 	text-align: center;
 }
