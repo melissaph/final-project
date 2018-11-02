@@ -29,7 +29,7 @@ nav a{
 }
 
 nav a:hover{
-	color: #3b57f7;
+	color: #C43718;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -43,7 +43,7 @@ nav a:hover{
 
 #current-page{
 	font-weight: bold;
-	color: #3b57f7;
+	color: #C43718;
 }
 
 @media all and (max-width: 576px){

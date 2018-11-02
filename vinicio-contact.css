@@ -1,0 +1,33 @@
+#form{
+	margin: 3% 0 0 33%;
+}
+
+#email{
+	width: 40%;
+}
+
+#subject{
+	width: 20%;
+}
+
+#paragraph{
+	width: 500px;
+	height: 300px;
+	vertical-align: top;
+}
+
+#response{
+	color: red;
+	margin: 3% 0 0 5%;
+}
+
+@media all and (max-width: 576px){
+	#form{
+		margin: 2%;
+	}
+
+	#pargraph{
+		width: 200px;
+		height: 300px;
+	}
+}

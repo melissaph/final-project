@@ -4,7 +4,6 @@
 	text-align: center;
 	text-transform: uppercase;
 	padding-right: 300px;
-	vertical-align: top;
 }
 
 img{
@@ -35,4 +34,13 @@ li{
 	font-weight: bold;
 	text-transform: underline;
 	text-align: center;
+}
+
+#back1, #back2, #back3{
+	display: none;
+	height: 300px;
+}
+
+.synopsis{
+	padding: 0 120px 0 120px;
 }
