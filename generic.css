@@ -13,14 +13,22 @@ body{
 	height: 100px;
 }
 
-.hamburger{
-/*	border-top: black solid 1px;
-	border-bottom: black solid 1px;*/
+#top-banner{
+	position: fixed;
+	top: 0;
 	text-align: center;
+	z-index: 1;
+	overflow: hidden;
+	width: 100%;
+	background-color: white;
+}
+
+.hamburger{
 	list-style: none;
 	font-size: 20px;
-	color: black;
 	font-family: Neuton;
+	cursor: pointer;
+	text-align: center;
 }
 
 nav a{

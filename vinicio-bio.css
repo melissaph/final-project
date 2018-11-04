@@ -10,12 +10,13 @@ p{
 
 div{
 	margin: 0;
-	padding: 30px 0 30px 0;
+/*	padding: 30px 0 30px 0;*/
 }
 
 img{
 	height: 100px;
 }
+
 .para-links{
 	color: #e2790f;
 	text-decoration: none;
@@ -24,6 +25,10 @@ img{
 .para-links:hover{
 	color: #e2790f;
 	text-decoration: underline;
+}
+
+#bottom{
+	margin-top: 12%;
 }
 
 /*#image1{

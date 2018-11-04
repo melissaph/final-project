@@ -13,22 +13,23 @@
 #pic2{
 	display: block;
 	margin: 0 auto;
-	margin-top: 140px;
-	width: 500px;
-	height: auto;
+	margin-top: 5%;
+	height: 80%;
+	width: auto;
 	z-index: 2;
 	position: relative;
 		}
 
 #sidenav{
 	height: 100%;
-	width: 180px;
+	width: 12%;
 	position: fixed;
 	z-index: 1;
 	top: 25%;
 	left: 0;
 	overflow-x: hidden;
 	padding-top: 20px;
+	text-transform: uppercase;
 }
 
 #portraits, #religion, #abstracts{
@@ -39,26 +40,31 @@
 	display: inline-block;
 }
 
-.categories{
-	padding: 10px 0 10px 40px;
-	text-decoration: none;
-	list-style: none
+#cat1{
+	background-color: #C43718;
+	color: white;
 }
 
-.categories:hover{
-	color: blue;
+.categories{
+	padding: 5% 0 5% 20%;
+	text-decoration: none;
+	list-style: none;
+	cursor: pointer;
 }
 
 img{
 	width: auto;
 	height: 300px;
 	margin: 2%;
+	cursor: pointer;
 }
 
 .images{
 	left: 12%;
-	top: 20%;
 	position: absolute;
+	margin-right: 4%;
+	margin-top: 11%;
+	text-align: center;
 }
 
 

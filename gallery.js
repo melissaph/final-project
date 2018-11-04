@@ -1,22 +1,81 @@
+
+
 $("#cat1").on("click", function(){
 	$("#landscapes").css("display", "inline-block")
-	$("#portaits, #religion, #abstracts").css("display", "none")
+	$("#portaits").css("display", "none")
+	$("#religion").css("display", "none")
+	$("#abstracts").css("display", "none")
+	$("#cat1").css("color", "white")
+	$("#cat1").css("backgroundColor", "#C43718")
+	$("#cat2, #cat3, #cat4").css("color", "black")
+	$("#cat2, #cat3, #cat4").css("backgroundColor", "white")
+
 })
 
 $("#cat2").on("click", function(){
 	$("#portraits").css("display", "inline-block")
-	$("#landscapes, #religion, #abstracts").css("display", "none")
+	$("#landscapes").css("display", "none")
+	$("#religion").css("display", "none")
+	$("#abstracts").css("display", "none")
+	$("#cat2").css("color", "white")
+	$("#cat2").css("backgroundColor", "#C43718")
+	$("#cat1, #cat3, #cat4").css("color", "black")
+	$("#cat1, #cat3, #cat4").css("backgroundColor", "white")
 })
 
 $("#cat3").on("click", function(){
 	$("#religion").css("display", "inline-block")
-	$("#portaits, #landscapes, #abstracts").css("display", "none")
+	$("#portraits").css("display", "none")
+	$("#landscapes").css("display", "none")
+	$("#abstracts").css("display", "none")
+	$("#cat3").css("color", "white")
+	$("#cat3").css("backgroundColor", "#C43718")
+	$("#cat1, #cat2, #cat4").css("color", "black")
+	$("#cat1, #cat2, #cat4").css("backgroundColor", "white")
 })
 
 $("#cat4").on("click", function(){
 	$("#abstracts").css("display", "inline-block")
-	$("#portaits, #religion, #landscapes").css("display", "none")
+	$("#portraits").css("display", "none")
+	$("#religion").css("display", "none")
+	$("#landscapes").css("display", "none")
+	$("#cat4").css("color", "white")
+	$("#cat4").css("backgroundColor", "#C43718")
+	$("#cat1, #cat3, #cat2").css("color", "black")
+	$("#cat1, #cat3, #cat2").css("backgroundColor", "white")
 })
+
+// $("#cat1").hover(function(){
+// 	$("#cat1").css("color", "white")
+// 	$("#cat1").css("backgroundColor", "#C43718")},
+// 	function(){
+// 	$("#cat1").css("color", "black")
+// 	$("#cat1").css("backgroundColor", "white")
+// 	})
+
+// $("#cat2").hover(function(){
+// 	$("#cat2").css("color", "white")
+// 	$("#cat2").css("backgroundColor", "#C43718")},
+// 	function(){
+// 	$("#cat2").css("color", "black")
+// 	$("#cat2").css("backgroundColor", "white")
+// 	})
+
+// $("#cat3").hover(function(){
+// 	$("#cat3").css("color", "white")
+// 	$("#cat3").css("backgroundColor", "#C43718"),}
+// 	function(){
+// 	$("#cat3").css("color", "black")
+// 	$("#cat3").css("backgroundColor", "white")
+// 	})
+
+// $("#cat4").hover(function(){
+// 	$("#cat4").css("color", "white")
+// 	$("#cat4").css("backgroundColor", "#C43718"),}
+// 	function(){
+// 	$("#cat4").css("color", "black")
+// 	$("#cat4").css("backgroundColor", "white")
+// 	})
 
 
 this.onclick = function(e){
