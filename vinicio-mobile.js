@@ -6,6 +6,7 @@ $(".mobileNav").click(function(){
 	if(flag == true){
 	$(".mobileNav").html("-")
 	$(".images").css("top", "45%")
+	$("#slideshow").css("top", "45%")
 	$("#sidenav").css("top", "45%")
 		flag = false
 	}else{

@@ -1,5 +1,3 @@
-
-
 $("#cat1").on("click", function(){
 	$("#landscapes").css("display", "inline-block")
 	$("#portaits").css("display", "none")
@@ -44,39 +42,6 @@ $("#cat4").on("click", function(){
 	$("#cat1, #cat3, #cat2").css("color", "black")
 	$("#cat1, #cat3, #cat2").css("backgroundColor", "white")
 })
-
-// $("#cat1").hover(function(){
-// 	$("#cat1").css("color", "white")
-// 	$("#cat1").css("backgroundColor", "#C43718")},
-// 	function(){
-// 	$("#cat1").css("color", "black")
-// 	$("#cat1").css("backgroundColor", "white")
-// 	})
-
-// $("#cat2").hover(function(){
-// 	$("#cat2").css("color", "white")
-// 	$("#cat2").css("backgroundColor", "#C43718")},
-// 	function(){
-// 	$("#cat2").css("color", "black")
-// 	$("#cat2").css("backgroundColor", "white")
-// 	})
-
-// $("#cat3").hover(function(){
-// 	$("#cat3").css("color", "white")
-// 	$("#cat3").css("backgroundColor", "#C43718"),}
-// 	function(){
-// 	$("#cat3").css("color", "black")
-// 	$("#cat3").css("backgroundColor", "white")
-// 	})
-
-// $("#cat4").hover(function(){
-// 	$("#cat4").css("color", "white")
-// 	$("#cat4").css("backgroundColor", "#C43718"),}
-// 	function(){
-// 	$("#cat4").css("color", "black")
-// 	$("#cat4").css("backgroundColor", "white")
-// 	})
-
 
 this.onclick = function(e){
 	if(e.target.getAttribute("src")){

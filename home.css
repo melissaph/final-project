@@ -25,28 +25,6 @@ div img{
 	height: 500px;
 }
 
-/* Fading animation */
-/*.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 3.5s;
-  animation-name: fade;
-  animation-duration: 3.5s;
-}
-
-@-webkit-keyframes fade {
-  0% {opacity: .6} 
-  20% {opacity: 1}
-  90% {opacity: 1}
-  100% {opacity: .6;}
-}
-
-@keyframes fade {
-   0% {opacity: .6} 
-  20% {opacity: 1}
-  90% {opacity: 1}
-  100% {opacity: .6;}
-}*/
-
 @media all and (max-width: 576px){
 	.hamburger{
 		display: none;
@@ -54,7 +32,6 @@ div img{
 
 	.mobileNav{
 		display: block;
-
 	}
 
 	#header{
@@ -62,19 +39,24 @@ div img{
 	}
 
 	#slideshow div{
-		height: 20%;
-		width: auto;
-		position: absolute;
+		height: auto;
+		width: 100%;
 		left: 0;
+		padding: 0;
+		margin: 0;
 	}
 
 	#slideshow{
-		height: 350px;
+		height: 400px;
 	}
 
 	div img{
 		height: 300px;
 		padding: 0 1% 0 1%;
+	}
+
+	#copyright{
+		margin-top: 2px;
 	}
 
 }

@@ -6,7 +6,7 @@ body{
 #header{
 	font-size: 64px;
 	text-align: center;
-	color: black;
+	color: black !important;
 	font-family: Dry Brush;
 	margin: 10px 0 0 0;
 	line-height: 100px;
@@ -57,7 +57,7 @@ nav a:hover{
 @media all and (max-width: 576px){
 	.hamburger{
 		display: none;
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 	.mobileNav{
@@ -67,4 +67,16 @@ nav a:hover{
 	#header{
 		font-size: 48px;
 	}
+
+	#top-banner{
+		text-align: center;
+		width: 100%;
+		background-color: white;
+		position: relative;
+		z-index: 1;
+}
+
+#pictures{
+	padding-left: 2%;
+}
 }
